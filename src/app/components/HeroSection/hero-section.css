@@ -130,4 +130,14 @@
 .main-content .content-right .hero {
     width:500px;
     height:500px;
+    animation: rotateImage 50s linear infinite;
+}
+
+@keyframes rotateImage {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
